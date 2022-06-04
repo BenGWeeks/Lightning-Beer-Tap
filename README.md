@@ -26,7 +26,7 @@ A little on threads:
 
 - The beer tap is actually a European style tap, which uses an ANSI Unified Screw Thread (1 1/8-18 or 1.125 UNEF) which is approximately 27mm in diameter.
 - The solenoid uses a British style BSP G 1/2"-14 and I found that no offset was required on the threads of the two adapters for that.
-- - Most threads within the model for mounting are ISO metric M3x0.5 6H. They should be OK with metal screws that can also tap their way in.
+- Most threads within the model for mounting are ISO metric M3x0.5 6H. They should be OK with metal screws that can also tap their way in.
 - Different printers have varying accuracies of printing. I have set the offset of -0.2mm for the nut that holds the nozzle on. I find this works well on a Prusa MK3S+ that has been calibrated.
 
 For a very good video on threads, please see:
