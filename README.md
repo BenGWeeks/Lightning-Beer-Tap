@@ -29,6 +29,8 @@ A little on threads:
 - Most threads within the model for mounting are ISO metric M3x0.5 6H. They should be OK with metal screws that can also tap their way in.
 - Different printers have varying accuracies of printing. I have set the offset of -0.2mm for the nut that holds the nozzle on. I find this works well on a Prusa MK3S+ that has been calibrated.
 
-For a very good video on threads, please see:
+For some very good video on threads, please see:
 
 [3D Printed Threads - Model Them in Fusion 360 | Practical Prints #2!](https://www.youtube.com/watch?v=aGWrFeu8Hv0)
+
+[3D printing threads and threaded inserts for 3D printed plastics](https://formlabs.com/blog/adding-screw-threads-3d-printed-parts/)
