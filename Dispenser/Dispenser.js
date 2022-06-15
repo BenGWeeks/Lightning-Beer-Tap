@@ -18,11 +18,25 @@
 const express = require('express')
 const app = express()
 const port = 3000
+app.use(express.json());
+
+app.post('/', (req, res) => {
+    var dateTime = Date.now();
+    console.log('Event was triggered');
+    console.log(req.body)
+    res.writeHead(200)
+    res.write('Dispensing')
+    res.end();
+});
+
+app.listen(port, () => {
+    console.log(`Example app listening on port ${port}`)
+})
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+    res.send('Hello World!')
 })
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+    console.log(`Example app listening on port ${port}`)
 })
